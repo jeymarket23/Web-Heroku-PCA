@@ -4,7 +4,7 @@
 <div class="jumbotron text-center">
   <div class="container">
     <a href="/" class="lang-logo">
-      <img src="/images/lang-logo.png">
+      <img src="/images/imagen2.jpg">
     </a>
     <h1>WEB HEROKU PCA</h1>
     <p>WEB Heroku PCA, es una app diseñada para que se conecte a un actuador el cual estará enlazado con unos sensores de temperatura, humedad, y algunos sensores de humo, con el fin de detectar que zonas de la ciudad tienden a ser mas propensas a la contaminación por la emisión de gases como el Monoxido de Carbono (CO), el dioxido de carbono (CO2), compuestos de plomo, oxidos nitrosos entre otros, debido al exceso de vehículos que utilizan gasolina.</p>
@@ -13,20 +13,26 @@
   </div>
 </div>
 <div class="container">
+  <div class="alert alert-info text-center" role="alert">
+    To deploy your own copy, and learn the fundamentals of the Heroku platform, head over to the <a href="https://devcenter.heroku.com/articles/getting-started-with-php" class="alert-link">Getting Started with PHP on Heroku</a> tutorial.
+  </div>
+  <hr>
   <div class="row">
     <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-info-sign"></span> Participantes </h3>
+      <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
       <ul>
-        <li>Jafeth Perez</li>
-        <li>Nicolas Gomez</li>
-        <li>Jeison Mercado</li>
+        <li>This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/php-getting-started">Heroku Button</a> on the repository.</li>
+
+        <li>When Heroku received the source code, it fetched all the dependencies in the <a href="https://github.com/heroku/php-getting-started/blob/main/composer.json">composer.json</a>, creating a deployable slug.</li>
+        <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
+        <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
       </ul>
     </div>
     <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-link"></span> Vision</h3>
+      <h3><span class="glyphicon glyphicon-link"></span> Next Steps</h3>
       <ul>
-        <li>Vision 1</li>
-        <li>Vision 2</li>
+        <li>If you are following the <a href="https://devcenter.heroku.com/articles/getting-started-with-php">Getting Started</a> guide, then please head back to the tutorial and follow the next steps!</li>
+        <li>If you deployed this app by deploying the Heroku Button, then in a command line shell, run:</li>
         <ul>
           <li><code>git clone https://github.com/heroku/php-getting-started.git</code> - this will create a local copy of the source code for the app</li>
           <li><code>cd php-getting-started</code> - change directory into the local source code repository</li>
