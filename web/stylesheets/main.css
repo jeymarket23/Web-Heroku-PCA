@@ -26,11 +26,11 @@
   background: #dedb3c;
   border-radius: 300%;
   overflow: hidden;
-  width: 300px;
+  width: 200px;
   height: 300px;
   margin: auto;
   border: 2px solid white;
 }
 .jumbotron .lang-logo img {
-  max-width: 200%;
+  max-width: 300%;
 }
